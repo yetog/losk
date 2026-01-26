@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# LOSK Creative Studio
 
-## Project info
+[![Deploy to GitHub Pages](https://github.com/yetog/losk/actions/workflows/deploy.yml/badge.svg)](https://github.com/yetog/losk/actions/workflows/deploy.yml)
 
-**URL**: https://lovable.dev/projects/301deaf3-1461-4a30-8862-fd168040fdad
+A creative studio application for authoring, reviewing, and visualizing the **Legend of the Soul King** dark isekai light novel series.
 
-## How can I edit this code?
+**Live Demo**: [https://yetog.github.io/losk/](https://yetog.github.io/losk/)
 
-There are several ways of editing your application.
+![LOSK Creative Studio](https://via.placeholder.com/800x400/1a1a2e/fbbf24?text=LOSK+Creative+Studio)
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/301deaf3-1461-4a30-8862-fd168040fdad) and start prompting.
+### Manuscript Reader
+- Text-to-speech with paragraph-by-paragraph highlighting
+- Scene navigation sidebar
+- Reading progress tracking
+- Personal notes per chapter
 
-Changes made via Lovable will be committed automatically to this repo.
+### Visual Studio
+- **Mood Board**: Drag-and-drop node canvas for visual planning
+- **Storyboard Timeline**: Scene-by-scene organization
+- **AI Prompt Generator**: Create prompts for Sora video generation
 
-**Use your preferred IDE**
+### Character Encyclopedia
+- 6 main characters with stats, abilities, and portraits
+- Interactive image positioning
+- Fighting styles and special moves
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### AI Assistant
+- Context-aware chatbot knows current page/chapter/character
+- LOSK Bible knowledge base (characters, lore, world rules)
+- Quick actions: improve text, check consistency, character help
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Analytics Dashboard
+- Word counts by volume and chapter
+- Content issue detection
+- Reading progress visualization
 
-Follow these steps:
+## Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Category | Technology |
+|----------|------------|
+| Framework | React 18 + TypeScript |
+| Build Tool | Vite 5 |
+| Styling | Tailwind CSS + shadcn/ui |
+| Animation | GSAP |
+| Node Graph | @xyflow/react |
+| AI | IONOS Inference API (Llama 3.1 8B) |
+| CI/CD | GitHub Actions |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repository
+git clone https://github.com/yetog/losk.git
+cd losk
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── pages/           # Route pages (Home, Story, Characters, Gallery, Dashboard)
+├── components/
+│   ├── ai/          # AI Assistant chatbot
+│   ├── moodboard/   # Visual planning components (ReactFlow nodes)
+│   ├── game/        # Character/story components
+│   └── ui/          # shadcn-ui components
+├── context/         # React Context (AI context provider)
+├── services/        # API services (IONOS AI)
+├── game/data/       # Story content, character data, fight scenes
+└── utils/           # TTS, notes manager, markdown parser
+```
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project automatically deploys to GitHub Pages via GitHub Actions when pushing to `main`.
 
-## What technologies are used for this project?
+To enable GitHub Pages:
+1. Go to repository Settings > Pages
+2. Under "Build and deployment", select **GitHub Actions** as source
+3. Push to main branch to trigger deployment
 
-This project is built with:
+## License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is for portfolio demonstration purposes.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/301deaf3-1461-4a30-8862-fd168040fdad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with [Claude Code](https://claude.ai/code)
