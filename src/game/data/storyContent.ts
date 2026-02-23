@@ -5006,8 +5006,6 @@ He didn’t answer. But her words stayed with him.
 
 So did Dante’s silence around camp. Ren didn’t let it bother him. The mission was done — it was time to head back. He glanced at his team and felt something settle in his chest.
 
----
-
 ---`,
         scenes: [
             { number: 1, title: "Sweat and Scars - Bandit Hunt Begins", location: "", timeOfDay: "", markerId: "scene-1" },
@@ -5017,7 +5015,7 @@ So did Dante’s silence around camp. Ren didn’t let it bother him. The missio
             { number: 5, title: "Final Ridge - Boss Defeated", location: "", timeOfDay: "", markerId: "scene-5" },
             { number: 6, title: "Campfire Debrief - Team Bonding", location: "", timeOfDay: "", markerId: "scene-6" }
         ],
-        wordCount: 2020,
+        wordCount: 2019,
         estimatedReadTime: 9
       },
       {
@@ -6605,15 +6603,23 @@ And one pendant that might still lead somewhere.
 
 ---
 
-Ren says softly, “I need some time to think. Great work those spells will come in handy”
+Ren stood slowly. “I need some time to think.”
 
-“Liora don’t let anyone break your spirit”
+He paused at the door.
 
-Ren left thinking that was the corniest line to depart on and looks back scratching his head wondering.
+“…Great work back there. Those spells will come in handy.”
 
-In the corner of his eyes he could she Liora grinning while drying her eyes.
+A beat.
 
-Ren thought to himself “ I may need to step up”`,
+“Liora.” His voice dropped. “Don’t let anyone break your spirit.”
+
+He left before he could hear his own words echo and cringe at them.
+
+He was halfway down the hall when he glanced back — just once.
+
+Liora was already grinning. Eyes damp. Head down. But grinning.
+
+*I may need to step up,* he thought.`,
         scenes: [
             { number: 1, title: "Guild Courtyard - Pre-Battle", location: "", timeOfDay: "", markerId: "scene-1" },
             { number: 2, title: "Secondary Balcony", location: "", timeOfDay: "", markerId: "scene-2" },
@@ -6634,7 +6640,7 @@ Ren thought to himself “ I may need to step up”`,
             { number: 17, title: "Guild HQ Main Hall", location: "", timeOfDay: "", markerId: "scene-17" },
             { number: 18, title: "Guild Library", location: "", timeOfDay: "", markerId: "scene-18" }
         ],
-        wordCount: 4615,
+        wordCount: 4628,
         estimatedReadTime: 21
       },
       {
