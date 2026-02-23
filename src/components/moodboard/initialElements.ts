@@ -32,7 +32,7 @@ export const initialNodes: Node[] = [
     data: {
       characterId: 'ren',
       name: 'Ren',
-      portrait: '/images/characters/ren.jpg',
+      portrait: '/losk/images/characters/Ren.jpg',
       role: 'protagonist',
       species: 'Demon',
       icon: '🔥'

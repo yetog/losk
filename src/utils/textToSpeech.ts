@@ -27,9 +27,33 @@ export class TextToSpeechManager {
   private options: TTSOptions = {};
   private isReading: boolean = false;
   private isCancelling: boolean = false; // Prevent cancelled utterance from continuing
+  private retryCount: number = 0;
+  private maxRetries: number = 3;
+  private keepAliveInterval: number | null = null;
 
   constructor() {
     this.synth = window.speechSynthesis;
+  }
+
+  /**
+   * Start a keep-alive interval to prevent Chrome from pausing TTS
+   * Chrome has a bug where it pauses TTS after ~15 seconds of inactivity
+   */
+  private startKeepAlive() {
+    if (this.keepAliveInterval) return;
+    this.keepAliveInterval = window.setInterval(() => {
+      if (this.synth.paused) {
+        console.log('[TTS] Keep-alive: resuming paused synthesis');
+        this.synth.resume();
+      }
+    }, 5000);
+  }
+
+  private stopKeepAlive() {
+    if (this.keepAliveInterval) {
+      clearInterval(this.keepAliveInterval);
+      this.keepAliveInterval = null;
+    }
   }
 
   /**
@@ -88,6 +112,8 @@ export class TextToSpeechManager {
     this.currentParagraphIndex = 0;
     this.isReading = true;
     this.isCancelling = false;
+    this.retryCount = 0;
+    this.startKeepAlive();
     this.speakCurrentParagraph();
   }
 
@@ -120,6 +146,8 @@ export class TextToSpeechManager {
     this.currentParagraphIndex = Math.max(0, Math.min(ttsIndex, this.paragraphs.length - 1));
     this.isReading = true;
     this.isCancelling = false;
+    this.retryCount = 0;
+    this.startKeepAlive();
     this.speakCurrentParagraph();
   }
 
@@ -135,6 +163,7 @@ export class TextToSpeechManager {
 
     if (this.currentParagraphIndex >= this.paragraphs.length) {
       this.isReading = false;
+      this.stopKeepAlive();
       this.options.onComplete?.();
       return;
     }
@@ -172,6 +201,7 @@ export class TextToSpeechManager {
 
       console.log('[TTS] Paragraph ended:', this.currentParagraphIndex, 'isReading:', this.isReading, 'isPaused:', this.isPaused);
       this.options.onParagraphEnd?.(this.currentParagraphIndex);
+      this.retryCount = 0; // Reset retry count on successful paragraph
       this.currentParagraphIndex++;
 
       if (this.isReading && !this.isPaused && !this.isCancelling) {
@@ -194,7 +224,21 @@ export class TextToSpeechManager {
         return;
       }
       console.error('[TTS] Error:', event.error);
-      this.isReading = false;
+
+      // Retry on recoverable errors
+      if (this.retryCount < this.maxRetries && this.isReading && !this.isCancelling) {
+        this.retryCount++;
+        console.log(`[TTS] Retrying paragraph (attempt ${this.retryCount}/${this.maxRetries})`);
+        setTimeout(() => {
+          if (this.isReading && !this.isCancelling) {
+            this.speakCurrentParagraph();
+          }
+        }, 500);
+      } else {
+        console.error('[TTS] Max retries reached, stopping');
+        this.isReading = false;
+        this.stopKeepAlive();
+      }
     };
 
     console.log('[TTS] Speaking paragraph:', this.currentParagraphIndex, 'text:', paragraph.substring(0, 50) + '...');
@@ -289,6 +333,8 @@ export class TextToSpeechManager {
     this.utterance = null;
     this.currentParagraphIndex = 0;
     this.isCancelling = false;
+    this.retryCount = 0;
+    this.stopKeepAlive();
   }
 
   /**
@@ -307,9 +353,27 @@ export class TextToSpeechManager {
 
   /**
    * Update voice (can be called while reading)
+   * @param voice - The voice to use
+   * @param applyImmediately - If true and currently reading, restart current paragraph with new voice
    */
-  setVoice(voice: SpeechSynthesisVoice) {
+  setVoice(voice: SpeechSynthesisVoice, applyImmediately: boolean = false) {
     this.options.voice = voice;
+    // If currently reading and applyImmediately, restart current paragraph with new voice
+    if (applyImmediately && this.isReading && !this.isPaused) {
+      this.restartCurrentParagraph();
+    }
+  }
+
+  /**
+   * Restart the current paragraph (useful for applying voice/rate changes or error recovery)
+   */
+  restartCurrentParagraph() {
+    if (this.currentParagraphIndex >= 0 && this.currentParagraphIndex < this.paragraphs.length) {
+      this.isCancelling = true;
+      this.synth.cancel();
+      this.isCancelling = false;
+      this.speakCurrentParagraph();
+    }
   }
 
   getVoices(): SpeechSynthesisVoice[] {

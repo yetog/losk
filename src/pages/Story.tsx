@@ -59,10 +59,14 @@ const Story = () => {
   const [ttsRate, setTtsRate] = useState(1.0);
   const [ttsProgress, setTtsProgress] = useState({ current: 0, total: 0 });
   const [showTTSPanel, setShowTTSPanel] = useState(false);
+  const [ttsPanelMinimized, setTtsPanelMinimized] = useState(false); // Minimized to sidebar
   const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selectedVoice, setSelectedVoice] = useState<SpeechSynthesisVoice | null>(null);
   const [paragraphs, setParagraphs] = useState<string[]>([]);
   const [ttsToUIMap, setTtsToUIMap] = useState<number[]>([]); // Maps TTS index to UI index
+
+  // Allowed voices (quality voices only)
+  const ALLOWED_VOICES = ['Rishi', 'Daniel', 'Karen', 'Samantha'];
 
   // Progress tracking
   const [readChapters, setReadChapters] = useState<string[]>(() => {
@@ -94,13 +98,20 @@ const Story = () => {
     );
   }, [viewState]);
 
-  // Load voices on mount
+  // Load voices on mount - filter to quality voices only
   useEffect(() => {
     const loadVoices = () => {
       const voices = ttsManager.getVoices();
-      setAvailableVoices(voices);
-      // Default to first English voice
-      const defaultVoice = voices.find(v => v.lang.startsWith('en')) || voices[0];
+      // Filter to only allowed high-quality voices
+      const filteredVoices = voices.filter(v =>
+        ALLOWED_VOICES.some(name => v.name.includes(name))
+      );
+      setAvailableVoices(filteredVoices);
+
+      // Default to Samantha (best quality) or first available
+      const defaultVoice = filteredVoices.find(v => v.name.includes('Samantha'))
+        || filteredVoices.find(v => v.name.includes('Daniel'))
+        || filteredVoices[0];
       if (defaultVoice && !selectedVoice) {
         setSelectedVoice(defaultVoice);
       }
@@ -114,6 +125,27 @@ const Story = () => {
       window.speechSynthesis.onvoiceschanged = null;
     };
   }, []);
+
+  // Auto-resume TTS when page becomes visible again (helps with phone sleep)
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible' && isTTSPlaying && !isTTSPaused) {
+        // Page is visible again, check if TTS got interrupted
+        const synth = window.speechSynthesis;
+        if (synth.paused) {
+          console.log('[TTS] Auto-resuming after visibility change');
+          synth.resume();
+        } else if (!synth.speaking && !synth.pending) {
+          // TTS stopped unexpectedly, restart from current paragraph
+          console.log('[TTS] TTS stopped unexpectedly, restarting');
+          ttsManager.restartCurrentParagraph();
+        }
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [isTTSPlaying, isTTSPaused]);
 
   // Load notes and parse paragraphs when chapter changes
   useEffect(() => {
@@ -302,7 +334,8 @@ const Story = () => {
     const voice = availableVoices.find(v => v.name === voiceName);
     if (voice) {
       setSelectedVoice(voice);
-      ttsManager.setVoice(voice);
+      // Apply voice immediately (restarts current paragraph with new voice)
+      ttsManager.setVoice(voice, true);
     }
   };
 
@@ -419,8 +452,58 @@ const Story = () => {
     });
   };
 
+  // Render minimized TTS player for sidebar
+  const renderMinimizedTTS = () => {
+    if (!ttsPanelMinimized || !isTTSPlaying) return null;
+
+    return (
+      <div className="p-3 bg-gray-800/80 border-b border-yellow-400/30">
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center gap-2">
+            <Volume2 className="w-4 h-4 text-yellow-400" />
+            <span className="text-xs text-yellow-300 font-medium">Audio</span>
+          </div>
+          <button
+            onClick={() => { setTtsPanelMinimized(false); setShowTTSPanel(true); }}
+            className="text-xs text-gray-400 hover:text-yellow-300"
+          >
+            Expand
+          </button>
+        </div>
+
+        {/* Mini progress */}
+        <div className="h-1 bg-gray-700 rounded-full overflow-hidden mb-2">
+          <div
+            className="h-full bg-yellow-500 transition-all duration-300"
+            style={{ width: `${ttsProgress.total > 0 ? (ttsProgress.current / ttsProgress.total) * 100 : 0}%` }}
+          />
+        </div>
+
+        {/* Mini controls */}
+        <div className="flex items-center justify-center gap-2">
+          <button onClick={handleTTSPrev} className="p-1.5 hover:bg-gray-700 rounded">
+            <SkipBack className="w-4 h-4" />
+          </button>
+          <button
+            onClick={isTTSPaused ? () => { ttsManager.resume(); setIsTTSPaused(false); } : () => { ttsManager.pause(); setIsTTSPaused(true); }}
+            className="p-2 bg-yellow-500 hover:bg-yellow-600 text-black rounded-full"
+          >
+            {isTTSPaused ? <Play className="w-4 h-4" /> : <Pause className="w-4 h-4" />}
+          </button>
+          <button onClick={handleTTSNext} className="p-1.5 hover:bg-gray-700 rounded">
+            <SkipForward className="w-4 h-4" />
+          </button>
+          <button onClick={handleTTSStop} className="p-1.5 hover:bg-gray-700 rounded text-red-400">
+            <Square className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+    );
+  };
+
   // Render TTS Control Panel
   const renderTTSPanel = () => {
+    if (ttsPanelMinimized) return null; // Don't show full panel when minimized
     if (!showTTSPanel && !isTTSPlaying) return null;
 
     return (
@@ -431,12 +514,22 @@ const Story = () => {
             <Volume2 className="w-5 h-5 text-yellow-400" />
             <span className="font-semibold text-yellow-300">Audio Reader</span>
           </div>
-          <button
-            onClick={() => setShowTTSPanel(false)}
-            className="p-1 hover:bg-gray-700 rounded"
-          >
-            <X className="w-4 h-4" />
-          </button>
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => { setTtsPanelMinimized(true); setShowTTSPanel(false); setSceneSidebarOpen(true); }}
+              className="p-1 hover:bg-gray-700 rounded"
+              title="Minimize to sidebar"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => setShowTTSPanel(false)}
+              className="p-1 hover:bg-gray-700 rounded"
+              title="Hide panel"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
         </div>
 
         {/* Progress */}
@@ -535,14 +628,11 @@ const Story = () => {
             onChange={(e) => handleVoiceChange(e.target.value)}
             className="w-full bg-gray-800 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:border-yellow-400 focus:outline-none"
           >
-            {availableVoices
-              .filter(v => v.lang.startsWith('en'))
-              .map(voice => (
-                <option key={voice.name} value={voice.name}>
-                  {voice.name.replace(/Microsoft |Google /, '')}
-                </option>
-              ))
-            }
+            {availableVoices.map(voice => (
+              <option key={voice.name} value={voice.name}>
+                {voice.name.replace(/Microsoft |Google |Apple /, '')}
+              </option>
+            ))}
           </select>
         </div>
 
@@ -756,6 +846,9 @@ const Story = () => {
               {/* Scene Sidebar */}
               <div className={`${sceneSidebarOpen ? 'w-72' : 'w-0'} transition-all duration-300 overflow-hidden border-r border-gray-700/50 bg-gray-900/50 flex-shrink-0`}>
                 <div className="w-72 h-full flex flex-col">
+                  {/* Minimized TTS Player */}
+                  {renderMinimizedTTS()}
+
                   <div className="p-4 border-b border-gray-700/50 flex items-center justify-between">
                     <h3 className="font-semibold text-yellow-300">Scenes</h3>
                     <span className="text-xs text-gray-500">{currentChapter.scenes.length} scenes</span>

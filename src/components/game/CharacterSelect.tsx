@@ -20,12 +20,12 @@ interface CharacterSelectProps {
 }
 
 const characters = [
-  { id: 'ren', name: 'Ren', image: '/images/characters/Ren.jpg' },
-  { id: 'kira', name: 'Kira', image: '/images/characters/Kira.jpg' },
-  { id: 'dante', name: 'Dante', image: '/images/characters/Dante.jpg' },
-  { id: 'liora', name: 'Liora', image: '/images/characters/Liora.jpg' },
-  { id: 'bradley', name: 'Bradley', image: '/images/characters/Bradley.jpg' },
-  { id: 'fasa', name: 'King Fasa', image: '/images/characters/Fasa.jpg' },
+  { id: 'ren', name: 'Ren', image: '/losk/images/characters/Ren.jpg' },
+  { id: 'kira', name: 'Kira', image: '/losk/images/characters/Kira.jpg' },
+  { id: 'dante', name: 'Dante', image: '/losk/images/characters/Dante.jpg' },
+  { id: 'liora', name: 'Liora', image: '/losk/images/characters/Liora.jpg' },
+  { id: 'bradley', name: 'Bradley', image: '/losk/images/characters/Bradley.jpg' },
+  { id: 'fasa', name: 'King Fasa', image: '/losk/images/characters/Fasa.jpg' },
 ];
 
 const CharacterSelect: React.FC<CharacterSelectProps> = ({
