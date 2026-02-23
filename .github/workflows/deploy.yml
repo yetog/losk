@@ -1,13 +1,14 @@
 # LOSK Creative Studio - CI/CD Pipeline
-# Builds and deploys to GitHub Pages
+# Builds and deploys to GitHub Pages AND zaylegend.com/losk
 
-name: Deploy to GitHub Pages
+name: Deploy LOSK
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch: # Allow manual trigger
 
 permissions:
   contents: read
@@ -41,19 +42,25 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Set base path for GitHub Pages
           VITE_BASE_PATH: /losk/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
 
-  # Deploy job (only on main branch push)
-  deploy:
+      - name: Upload build artifacts for server deploy
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 7
+
+  # Deploy to GitHub Pages
+  deploy-github-pages:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     environment:
       name: github-pages
@@ -64,3 +71,49 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Deploy to zaylegend.com/losk
+  deploy-zaylegend:
+    name: Deploy to zaylegend.com
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Deploy to zaylegend.com via SSH
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: ${{ secrets.SERVER_PORT }}
+          source: "dist/*"
+          target: "/var/www/zaylegend/apps/testing/losk/"
+          strip_components: 1
+
+      - name: Log deployment
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            echo "LOSK deployed at $(date)" >> /var/www/zaylegend/apps/testing/losk/deploy.log
+
+  # Notify on failure
+  notify-failure:
+    name: Notify on Failure
+    runs-on: ubuntu-latest
+    needs: [build, deploy-github-pages, deploy-zaylegend]
+    if: failure()
+
+    steps:
+      - name: Log failure
+        run: echo "LOSK deployment failed! Check the logs above."
