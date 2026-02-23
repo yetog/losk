@@ -4245,11 +4245,11 @@ Bandaged. Resting. Changed.
 
 Ren stared at the ceiling lost in thought.
 
-“Projectiles. Elemental casting. Healing tech. I need to develop a better strategy out there. I felt so useless.
+*Projectiles. Elemental casting. Healing tech. I need a better strategy out there. I felt so useless.*
 
-The next war wouldn’t be about brawlers.
+*The next war wouldn’t be about brawlers.*
 
-It would be about the ones who could adapt.”
+*It would be about the ones who could adapt.*
 
 The room buzzed faintly with mana fields and healing wards.
 
@@ -4423,7 +4423,7 @@ Steel and Sound`,
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 3845,
+        wordCount: 3843,
         estimatedReadTime: 18
       },
       {
@@ -4851,7 +4851,7 @@ Liora leaned back on a log. “You ever think of leading a squad?”
 
 Ren looked up. “Me?”
 
-Liora replied “Yeah you: You see things. Adjust. Predict. It’s not just instinct anymore. It’s command.”
+Liora nodded slowly. “Yeah — you. You see things. Adjust. Predict. It’s not just instinct anymore. It’s command.”
 
 He didn’t answer. But her words stayed with him.
 
@@ -4868,7 +4868,7 @@ So did Dante’s silence around camp. Ren didn’t let it bother him. The missio
             { number: 5, title: "Final Ridge - Boss Defeated", location: "", timeOfDay: "", markerId: "scene-5" },
             { number: 6, title: "Campfire Debrief - Team Bonding", location: "", timeOfDay: "", markerId: "scene-6" }
         ],
-        wordCount: 2018,
+        wordCount: 2020,
         estimatedReadTime: 9
       },
       {
@@ -5013,8 +5013,6 @@ Kira unsheathed her blades slowly, thoughtfully. “So this isn’t a lesson?�
 Solana smiled.
 
 “Oh no. It’s a test.”
-
----
 
 ---
 
@@ -5448,7 +5446,7 @@ That he could give something to this world. Not just survive it.
             { number: 10, title: "West Courtyard", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Courtyard Later", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 2779,
+        wordCount: 2778,
         estimatedReadTime: 13
       },
       {
