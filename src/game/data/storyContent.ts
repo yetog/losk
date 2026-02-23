@@ -2608,6 +2608,56 @@ It seemed winnable.
 
 **INT. TRAINING HALL – A WEEK LATER (MONTAGE BEGINS)**
 
+DAY THREE.
+
+Kira circled him, sabers sheathed, arms folded. He’d tried the same pivot counter six times and she’d slipped through it every time.
+
+"You’re loading your weight too early," she said. "I can see it in your shoulder before you move."
+
+Ren exhaled. "So I just… don’t commit until the last second?"
+
+"No." She stepped forward. "You commit. Just to the wrong thing on purpose. Give them the read they want — then deny it."
+
+He tried again.
+
+She walked through it anyway.
+
+"Again," she said.
+
+---
+
+DAY FIVE.
+
+A sparring drone — baseline difficulty — and he still got clipped twice. Not badly. But enough.
+
+The problem wasn’t reflexes. It was the gap between thought and action. He’d plan a move, and by the time it reached his hands it was already half a beat late.
+
+He stopped thinking. Started narrating instead. Not words — rhythm. Like laying down a beat and trusting the body to follow.
+
+*Step. Beat. Pivot-beat-strike.*
+
+Third time through, it ran clean.
+
+---
+
+DAY SEVEN.
+
+Kira watched from the wall as he ran a full sequence against two training dummies simultaneously — one blade managing left, one managing right, his footwork threading the gap without breaking.
+
+She didn’t speak for a moment.
+
+Then: "You figured out the offset."
+
+"What offset?" he asked.
+
+"You can’t fight two targets at the same priority level. You’ll burn out. So you dropped one to background processing." She tilted her head. "That’s actually advanced technique."
+
+He hadn’t done it consciously. It had just happened.
+
+[PASSIVE ACQUIRED: DUAL-FOCUS — Simultaneous threat tracking. Reduced attentional split.]
+
+---
+
 Ren moved cleaner now. Faster. He understood the tempo, the rhythm, the timing.
 
 Every sparring match had a combo. Every feint had a follow-up. He was learning the song beneath the violence.
@@ -2631,6 +2681,20 @@ The sky was still pale when Ren’s eyes opened. The training from last night ec
 He tried to close his eyes again.
 
 Didn’t work.
+
+Through the narrow window, the Twilight Republic glowed in the pre-dawn haze — rune-lanterns cooling from their nightly burn, the high towers catching the first bruised edge of sunlight. He’d stopped noticing how different it looked from New York. Now it just looked like morning.
+
+His mind went to the mission brief from two days ago. Sigma-13. A covert facility, ghost-routed off every official map. The kind of place that didn’t show up on paper because paper had its own loyalties.
+
+*Please, no casualties.*
+
+He lay there another thirty seconds.
+
+Thought about the team. How Kira had corrected his footwork three different times this week without making it feel like criticism. How Bradley had slid him a plate without asking. How Liora had started saving him a seat.
+
+*Man,* he thought. *I actually like these people.*
+
+Then he sat up, reached for his daggers, and decided sleep was overrated.
 
 So he got up.
 
@@ -3258,6 +3322,8 @@ There was something else behind his eyes now — not nostalgia. More like moment
 
 Ren paused. "Oh. Right. It's... hard to explain without seeing it."
 
+He glanced around the armory — blades, rune-boards, mission maps. Nothing that translated. Back home there was always something to point to. Here, he was working from scratch.
+
 He set down his harness and stood, stepping into the open space of the armory.
 
 "Okay, picture this: Two teams. One ball. The goal is to carry it to the far end of the field and score. But here's the catch — you can only pass backward to your teammates."
@@ -3332,8 +3398,8 @@ Outside, dawn crept closer. And with it, the mission.`,
             { number: 10, title: "Deep War Room - Mission Briefing", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Pre-Deployment - Ren & Kira", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 5672,
-        estimatedReadTime: 26
+        wordCount: 6115,
+        estimatedReadTime: 28
       },
       {
         id: "v2c2",
@@ -3975,6 +4041,8 @@ Ren ducked low, twin daggers in hand, spinning through the gap between machines.
 
 “Agh--!”
 
+[SHOCK DAMAGE: -22 HP] [STATUS: MOVEMENT IMPAIRED — 5s]
+
 Bradley fired his elemental revolver -- a cryo-burst round shattered the bot clinging to Ren, freezing its servos mid-shock.
 
 The three of them were driven into a back chamber -- a curved dome filled with servo racks and defunct cyborgs strung up like marionettes in low power mode.
@@ -3998,6 +4066,8 @@ Ren stared at the walls closing in.
 He slashed through two more droids, but his movements were slower -- less precise.
 
 There were too many of them.
+
+[HP: 61/175] [STAMINA: CRITICAL]
 
 His mind ticked.
 
@@ -4093,7 +4163,9 @@ Ren ducked low, slid under the legs of a stunned automaton, and slashed its knee
 
 Behind him, Bradley fired off two elemental rounds -- one ice, one plasma -- freezing a drone’s core before the second bullet shattered it.
 
-Dante stood, sword dragging behind him like a dead limb. His eyes met Ajax’s.
+Dante stood, sword dragging behind him like a dead limb. His eyes met Ajax’s.
+
+[DANTE STATUS: WOUNDED — Combat Efficiency -35%]
 
 “Recovered?” Ajax asked, amused.
 
@@ -4117,7 +4189,12 @@ The commander’s eyes widened. He stumbled backward, stunned.
 
 “Now!” Dante roared.
 
-Ren lunged, driving a dagger into the power seal on Ajax’s belt. Bradley tossed a binding grenade -- glyphs bursting around Ajax’s feet.
+Ren lunged, driving a dagger into the power seal on Ajax’s belt.
+
+[SKILL ACTIVATED: PRECISION STRIKE]
+[AJAX POWER SEAL: COMPROMISED]
+
+Bradley tossed a binding grenade -- glyphs bursting around Ajax’s feet.
 
 For the first time, Ajax looked surprised.
 
@@ -4127,7 +4204,7 @@ Red warning lights bloomed across every wall.
 
 “SELF-DESTRUCT PROTOCOL ENGAGED.”
 
-Countdown: 04:00
+[MISSION STATUS: ABORT — HOSTILE DETECTED] [TIME TO DETONATION: 04:00]
 
 Ajax smirked. “Always a contingency. That’s what makes her Queen.”
 
@@ -4203,11 +4280,29 @@ Ren nodded. “Lead the way.”
 
 **EXT. DEAD MERIDIAN — LATER THAT NIGHT**
 
+The walk from the blast site took longer than it should have.
+
+Ren’s palms were raw where he’d braced against superheated metal in the final push. He kept flexing them open and closed — not in pain, just checking. Making sure everything still worked.
+
+Dante moved like he was carrying a second person’s weight. His cloak was wrapped tight around his ribs, improvised but thorough. He hadn’t complained. He also hadn’t spoken in twenty minutes.
+
+Bradley, in contrast, had not stopped talking. He was currently narrating his engineering assessment of the mana-truck to no one in particular.
+
+"Hull stress fractures on both lateral joints. Coolant leaked dry. Crystalline drive core seized — but that’s not necessarily fatal, depending on whether the heat cycling cracked the attunement seal or just the casing."
+
+He paused.
+
+"Also there’s a bird’s nest in the exhaust duct. Which is remarkable, because I don’t know what kind of bird survives in the Dead Meridian, but clearly that bird has better survival instincts than all three of us combined."
+
 They reached the busted mana-truck hours later — its hull coated in dust, crystalline engine long since cooled.
 
 Too damaged to start.
 
 Bradley kicked the tire. “It’s not dead. Just... needs some love and attention.”
+
+“You say that about everything,” Ren said.
+
+“And I’m usually right.”
 
 Dante scanned the ridge behind them. “Okay, fix it after we eat. We camp here. Move at first light.”
 
@@ -4225,9 +4320,63 @@ Bradley stirred a small pot with leftover rations. “There’s a reason no one 
 
 Dante said nothing. Just cleaned his blade in slow, careful motions.
 
+The fire popped.
+
+Ren watched the embers. The cold crept in at the edges of the heat ring — not enough wood, not enough magic in the elemental stones to push it back.
+
+He’d been thinking about it since the facility.
+
+"Those people," he said finally. "The ones hardwired into the systems. The cyborgs."
+
+Nobody answered right away.
+
+Bradley scraped the bottom of the pot. "They were alive. Some of them. I know what you’re asking."
+
+"What happens to them now?" Ren said. "The facility’s gone. The network’s severed. Are they—"
+
+"I don’t know," Bradley said. "Maybe they were already gone. Maybe the connection was the only thing keeping them…" He didn’t finish.
+
+Dante’s hand paused on his blade. Then continued.
+
+"Some fates can’t be undone," he said, voice flat. "You note it. You move on."
+
+Ren looked at him.
+
+Dante didn’t look back.
+
+The fire crackled between them, throwing orange light that barely reached the rocks.
+
+*Some fates can’t be undone.*
+
+Ren turned it over in his mind like a stone he couldn’t put down.
+
+He wasn’t sure he agreed.
+
+But he didn’t have a better answer.
+
 {{SCENE_12}}
 
 **EXT. OUTSKIRTS OF TWILIGHT REPUBLIC — TWO DAYS LATER**
+
+The road home was a lie at first.
+
+Miles of cracked stone and dead mana-channels — ley lines that had once run like rivers of light beneath the surface, now dry as chalk. The truck groaned over the worst of the breaks, Bradley coaxing speed from a crystalline engine he’d reattached with equal parts skill and stubbornness.
+
+No one had slept well. The Dead Meridian had no proper silence — just the hiss of broken static and the occasional groan of fractured terrain settling into itself.
+
+But around midday on the second day, the sky changed.
+
+The smudge of darkness on the horizon gave way to color — peach and amber and the warm haze of a city that ran on magic and momentum. Distant spire-lights winked on as the afternoon bled into early evening.
+
+Twilight Republic.
+
+Ren watched it grow through the cracked windshield, and something he hadn’t named loosened in his chest.
+
+It wasn’t quite relief.
+
+It wasn’t quite home.
+
+But it was something.
 
 The cliffs of the Shadow Guild’s southern perimeter finally came into view — jagged and sharp like the edge of a closing door.
 
@@ -4423,8 +4572,8 @@ Steel and Sound`,
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 3843,
-        estimatedReadTime: 18
+        wordCount: 4416,
+        estimatedReadTime: 20
       },
       {
         id: "v2c4",
@@ -5422,7 +5571,25 @@ Watching. Always watching.
 
 **EXT. COURTYARD – LATER**
 
-Liora spun with a trail of light behind her. Bradley had conjured a visual loop of floating stars. Even Kira had taken her boots off and was swaying near the drinks table.
+Liora spun with a trail of light behind her. Bradley had conjured a visual loop of floating stars. Even Kira had taken her boots off and was swaying near the drinks table.
+
+At some point, Kira caught herself smiling.
+
+Not a performative smile. Not the kind she issued in debriefs or threw at missions to signal readiness. The quiet kind — the one that only showed up when no one was watching. Her shoulders were down. Her hands weren’t reaching for anything.
+
+She noticed Ren noticing.
+
+And for a half-second, she held it instead of killing it.
+
+Then she picked up her cup and looked away.
+
+Bradley crossed the courtyard and came to stand beside Ren. No commentary. He looked at what Ren had built — the air glyphs humming overhead, the resonance mirrors bouncing light in rhythm, the bassline that had made Liora’s wings unfurl without her thinking about it.
+
+He looked at it the way someone looks at something they’re glad exists.
+
+Then he bumped Ren’s shoulder with his.
+
+One nod. That was it.
 
 Ren leaned against the wall, soaking it in.
 
@@ -5446,7 +5613,7 @@ That he could give something to this world. Not just survive it.
             { number: 10, title: "West Courtyard", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Courtyard Later", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 2778,
+        wordCount: 2922,
         estimatedReadTime: 13
       },
       {
@@ -5604,6 +5771,14 @@ Sowed confusion without setting off alarms too soon.
 
 The perfect softening agent before the storm.
 
+Ren felt it first as a subtle weight — not quite dizziness. Just friction. Like air moving through his limbs a half-second slower than it should.
+
+[ENVIRONMENTAL HAZARD: PARALYTIC AGENT DETECTED]
+[RESISTANCE: PARTIAL — Demonic Constitution]
+[HP: 140/175] [REACTION TIME: -15%]
+
+He blinked, shook it off. But his eyes were already scanning the walls.
+
 High above, cloaked figures slipped into position on the outer walls -- silhouettes stamped with the Queen’s serpent-and-crown insignia.
 
 The invasion had begun.
@@ -5722,6 +5897,8 @@ He came up fast, faster than her faltering footing could track.
 
 His blade kissed her ribs -- a shallow slash first, just to draw blood.
 
+[SOLANA HP: 119/240] [STATUS: TOXIN ACTIVE — Binding Magic Impaired]
+
 A taunt.
 
 Solana staggered back, summoning another glyph midair -- this one a high-velocity flare meant to burn the target’s nervous system.
@@ -5747,6 +5924,9 @@ His blade punched forward, sliding under her guard -- under her ribs -- deep.
 Solana gasped, magic shattering from her fingertips in a shower of dying embers.
 
 Dante stepped closer, twisting the blade once, clinically, before wrenching it free.
+
+[SOLANA — CAPTAIN STATUS: CRITICAL]
+[HP: 18/240] [BINDING MAGIC: FAILED — TOXIN INTERFERENCE]
 
 Solana fell to one knee, blood pooling beneath her, her hand reaching out blindly -- not for herself -- but clutching at the pendant around her neck.
 
@@ -5906,9 +6086,11 @@ Something deeper. Something old.
 
 The air warped around him -- thick with black-red energy. Runes across the courtyard cracked as his aura surged, swallowing torchlight and moonlight alike. The markings along his forearms glowed bright, then darker, shifting like moving ink.
 
-Berserker State Engaged. Netherbound Job Class Activated: Status increase.
-
-x5 Stat Surge -- WARNING: Conscious Control Unstable
+[BERSERKER STATE: ACTIVE]
+[NETHERBOUND — UNLOCKED]
+[ALL STATS: ×5 MULTIPLIER]
+[WARNING: CONSCIOUS CONTROL UNSTABLE — DURATION UNKNOWN]
+[THREAT ASSESSMENT: DANTE — ELIMINATE]
 
 Dante’s footing faltered as the wind pressure alone shoved him back. Debris lifted. Loose stones hovered. The entire battlefield seemed to tilt toward Ren.
 
@@ -6031,6 +6213,11 @@ Meteor Fang – Arc Burst Drive
 He descended like lightning made steel.
 
 The spear struck Ren square in the chest -- and detonated on impact.
+
+[IMPACT DAMAGE: CRITICAL]
+[HP: 4/175]
+[BERSERKER STATE: COLLAPSED — OVERLOAD]
+[WARNING: SYSTEM SHUTDOWN IMMINENT]
 
 The force split the earth below them, shockwaves radiating in a perfect circle.
 
@@ -6447,7 +6634,7 @@ Ren thought to himself “ I may need to step up”`,
             { number: 17, title: "Guild HQ Main Hall", location: "", timeOfDay: "", markerId: "scene-17" },
             { number: 18, title: "Guild Library", location: "", timeOfDay: "", markerId: "scene-18" }
         ],
-        wordCount: 4519,
+        wordCount: 4615,
         estimatedReadTime: 21
       },
       {
@@ -6501,7 +6688,27 @@ Liora, who sat at the table beside a stack of empty cups, didn’t flinch.
 
 Bradley raised his eyebrows. “Dark.”
 
-Liora smiled faintly. “Real.”
+Liora smiled faintly. "Real."
+
+Bradley ladled a bowl anyway and set it in front of her. Ceramic, chipped at the rim. Steam curled up and caught what little warmth there was in the kitchen.
+
+Liora stared at it for a moment. Then picked up the spoon.
+
+The safehouse smelled like dried thyme and old wallpaint. Somewhere above them, a pipe groaned. The city outside was still half-rubble from the attack — but the kitchen had a rhythm to it. Something almost stable.
+
+"In my old squad," Bradley said, not looking up from the pot, "we had this rule. No one talks about the mission after the first night. You process, you eat, you sleep. Day two starts clean."
+
+Liora looked up. "Did that actually work?"
+
+Bradley thought about it.
+
+"Not really," he admitted. "But the food was decent."
+
+She almost laughed. Not quite. But the shape of it crossed her face.
+
+"Make it good," she said.
+
+He didn’t look up. "I always do."
 
 ---
 
@@ -6536,8 +6743,6 @@ Ren nodded.
 Liora raised her glass.
 
 “Then let’s start packing.”
-
----
 
 ---
 
@@ -6813,15 +7018,23 @@ Monica launched from the overlook -- one silent leap into the night.
 
 She hit the outer tower wall in a flash, then ricocheted off into the night -- bounding from arch to rooftop, terrain to terrain, in blinding pulses of motion.
 
-To anyone watching -- a blur. A whisper on the wind.
+The night air slapped cold against her face. Below, the city’s veins of rune-light pulsed steady and unaware. The sounds of it — market stalls running late, the low thrum of transit enchantments, voices she couldn’t name — fell away behind her with each bound.
 
-“Ren…”
+Up here, there was only wind and gravity and the map she kept in her body.
 
-“I think it’s time we catch up.”
+She was Beast-form tonight. Not the contained version she wore in rooms full of elves and calculations. The real form — the one that read terrain like language, that heard the vibration of stone and tile and knew where to land before her eyes registered the ledge.
 
----
+Fast. Quiet. Precise.
 
-(The road forward never opens without resistance. And sometimes, it starts with a single arrow.)
+She loved this part. Even when it led somewhere that complicated things.
+
+She vaulted the final arch and disappeared into the dark beyond the outer wall.
+
+To anyone watching: a blur. A whisper on the wind.
+
+"Ren…"
+
+"I think it’s time we catch up."
 
 ---
 
@@ -7275,6 +7488,14 @@ Kira stood silently, one hand brushing the cut on her leg she hadn’t healed ye
 
 Her eyes flicked between Ren and Liora — still locked in conversation. Still connected.
 
+She watched the way Liora laughed — unguarded, like she’d never been taught to protect anything. And the way Ren watched back, steady, like he was glad for it.
+
+The cut on her leg throbbed once. She pressed her thumb against it, let it ache, and used the sensation to hold herself somewhere she recognized.
+
+*This is fine,* she told herself.
+
+But her hands were too still. Her jaw a little too set. And when Bradley called from across the clearing, she turned toward him faster than she needed to.
+
 She turned away.
 
 Didn’t speak.
@@ -7433,8 +7654,8 @@ END OF VOLUME 2`,
             { number: 16, title: "Edge of Clearing", location: "", timeOfDay: "", markerId: "scene-16" },
             { number: 17, title: "Valoriant Ridge Sunset", location: "", timeOfDay: "", markerId: "scene-17" }
         ],
-        wordCount: 4637,
-        estimatedReadTime: 21
+        wordCount: 5005,
+        estimatedReadTime: 23
       }
     ]
   },
