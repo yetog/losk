@@ -2424,7 +2424,7 @@ Ren approached the rack but didn’t touch anything yet. His eyes scanned the wa
 
 “So what’s my play?” he asked. “Do I chase him weapon for weapon?”
 
-“No,” Kira said flatly. “You build your own tree. Combine what works. These Demon classes give you freedom.
+“No,” Kira said flatly. “You build your own tree. Combine what works. These demon classes give you freedom.”
 
 “You don’t have to decide now,” Kira said, stepping past him. “First you study the rhythm.”
 
@@ -3212,7 +3212,7 @@ Off-duty tonight: fitted jacket half-zipped, hair still damp from a quick rinse,
 
 She stepped into the room, gaze flicking to the weapons, then to his face.
 
-"You seem ready more focused"
+"You seem ready. More focused."
 
 Ren chuckled. "You sound surprised."
 
@@ -4023,7 +4023,11 @@ The hallway cleared for a brief three seconds.
 
 They sprinted laying out a swift barrage of strikes, clearing the hoard of cyborgs.
 
-As Ren supports Dante’s assault slicing through as many as he can. Then, he pauses suddenly, getting a chill behind his neck. He yells to Dante “wait it’s a trap!”
+Ren cut through the flank beside Dante, clearing a path — then stopped cold.
+
+A chill crawled up the back of his neck. Something was wrong.
+
+"Wait," he said sharply. "It's a trap."
 
 {{SCENE_8}}
 
@@ -4153,10 +4157,6 @@ Ren, Dante, and Bradley sprinted across the collapsing causeways -- one foot wro
 
 “Vent corridor!” Dante yelled, carving through a fallen beam with his blade.
 
-Bradley dragged Ren up as a servo-bot crawled from the debris, its torso half missing, sparks firing from exposed rune-circuits.
-
-“Vent corridor!” Dante yelled, carving through a fallen beam with his blade.
-
 Bradley dragged Ren up as a servo-bot crawled from the debris, its torso half-missing, sparks firing from exposed rune-circuits.
 
 Bradley yanked a small, red-cored device from his belt.
@@ -4167,7 +4167,7 @@ He hurled it over his shoulder — the trap latched to the wall behind them with
 
 Ren glanced back, still catching his breath. “Remind me to never doubt your aim.”
 
-Bradley smiled back as at him as him Dante and Ren ran for their lives to beat the self-destruct countdown.
+Bradley flashed a grin over his shoulder as the three of them sprinted for the launch bay.
 
 01:12… 00:46… 00:13…
 
@@ -4251,7 +4251,7 @@ The next war wouldn’t be about brawlers.
 
 It would be about the ones who could adapt.”
 
-he room buzzed faintly with mana fields and healing wards.
+The room buzzed faintly with mana fields and healing wards.
 
 He let out a breath he didn’t realize he’d been holding.
 
@@ -4423,7 +4423,7 @@ Steel and Sound`,
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 3877,
+        wordCount: 3845,
         estimatedReadTime: 18
       },
       {
@@ -4431,9 +4431,7 @@ Steel and Sound`,
         volumeId: 2,
         chapterNumber: 4,
         title: "Sweat and Scars",
-        content: `Chapter 2
-
-{{SCENE_1}}
+        content: `{{SCENE_1}}
 
 **EXT. OUTSKIRTS OF THE TWILIGHT REPUBLIC – LATE AFTERNOON**
 
@@ -4685,9 +4683,7 @@ Chains coiled around his forearms like serpents, steel gauntlets stained dark wi
 
 His roar shook loose stones from the ridge above.
 
-Bradley swore
-
-under his breath.
+Bradley swore under his breath.
 
 “Tell me that’s not normal.”
 
@@ -4699,21 +4695,9 @@ From a distant hilltop, Dante watched, motionless, a shadow against the sky.
 
 Ren stepped forward, exhaling slow.
 
-The change overtook him without warning -- like slipping into a deeper skin.
+The Shadowbringer form was already live. His daggers shimmered with dark energy, the staff steady in his grip, crimson-threaded shadowfiber still moving with him like second skin.
 
-The daggers at his hips shimmered black, violet sparks dancing along the blades. A second weapon materialized in his right hand: a dark chrome staff, etched with runic glyphs that glowed faintly at the seams.
-
-CLASS SHIFT: Shadowbringer (Demonic)
-
-New Spell Access: Dark Flare, Shadow Shocker, Dark Frost Shards, Voidstep.
-
-His outfit shifted, too.
-
-The plain tunic and jeans replaced by midnight-black combat leathers, layered with matte armored plates at the shoulders and knees. A hooded jacket draped over him, short at the back for mobility but weighted enough to catch the wind dramatically when he moved.
-
-Crimson threadwork stitched faint sigils across the sleeves--subtle, lethal, beautiful.
-
-Ren rotated the staff in one hand and spun the dagger in the other, feeling the perfect weight of both.
+Ren rotated the staff once, dagger glinting at his side.
 
 The air thickened around him--not heavy, but dense. Sharpened.
 
@@ -4841,7 +4825,7 @@ He dropped to one knee.
 
 Chains clattered in the dirt.
 
-Surrendering he claimed “our troupe will leave and stay clear of the Shadow Guild’s Territories”
+"Our troupe will leave," he rasped, chains clattering against stone. "We’ll stay clear of the Shadow Guild’s territories."
 
 The battle was over.
 
@@ -4871,7 +4855,7 @@ Liora replied “Yeah you: You see things. Adjust. Predict. It’s not just inst
 
 He didn’t answer. But her words stayed with him.
 
-So did Dante’s silence around the camp. Ren didn’t let it bother him as the mission was over, it was finally time to head back to the base! It was only a little past noon but he was excited for tonight he would do something to give back to his new companions.
+So did Dante’s silence around camp. Ren didn’t let it bother him. The mission was done — it was time to head back. He glanced at his team and felt something settle in his chest.
 
 ---
 
@@ -4884,8 +4868,8 @@ So did Dante’s silence around the camp. Ren didn’t let it bother him as the 
             { number: 5, title: "Final Ridge - Boss Defeated", location: "", timeOfDay: "", markerId: "scene-5" },
             { number: 6, title: "Campfire Debrief - Team Bonding", location: "", timeOfDay: "", markerId: "scene-6" }
         ],
-        wordCount: 2137,
-        estimatedReadTime: 10
+        wordCount: 2018,
+        estimatedReadTime: 9
       },
       {
         id: "v2c5",
@@ -5029,14 +5013,6 @@ Kira unsheathed her blades slowly, thoughtfully. “So this isn’t a lesson?�
 Solana smiled.
 
 “Oh no. It’s a test.”
-
----
-
-TO BE CONTINUED…
-
-Here is Part 2: “The Dance of Frost and Light”
-
-(Technique unlocks through rhythm. Strength, through honesty. And somewhere in the middle, growth.)
 
 ---
 
@@ -5252,16 +5228,6 @@ Kira didn’t pull away.
 
 ---
 
-TO BE CONCLUDED…
-
-Here is Part 3: “Echoes of Leadership”
-
-(A breath before the darkness. A whisper of legacy. And a vow that outlives the one who made it.)
-
----
-
----
-
 {{SCENE_7}}
 
 **EXT. TWILIGHT TRAINING PARK – NIGHTFALL**
@@ -5390,7 +5356,7 @@ Ren had led a strike team. Actually led. With instinct. With strategy. And whe
 
 Training with Solana and Liora was fun. I wonder if she’s still out meditating.
 
-She caught herself smiling. Tried taking a deep breath and closwd her eyes. Then scowled.
+She caught herself smiling. Tried taking a deep breath and closed her eyes. Then scowled.
 
 “Nope,” she muttered. “Not happening.”
 
@@ -5482,7 +5448,7 @@ That he could give something to this world. Not just survive it.
             { number: 10, title: "West Courtyard", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Courtyard Later", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 2837,
+        wordCount: 2779,
         estimatedReadTime: 13
       },
       {
@@ -5986,7 +5952,7 @@ Dante’s eyes widened.
 
 Then Ren was in front of him -- fist cocked back. Daggers sheathed but glowing like miniature eclipses.
 
-The strike landed hard impacted dante.
+The strike landed hard, driving Dante back into the stone.
 
 Dante flew across the courtyard, slammed into a wall, and slid down -- bleeding, wheezing, gasping.
 
@@ -6030,7 +5996,7 @@ He was losing.
 
 Badly.
 
-Out of nowhere Ren darts towards the Debris Dante was behind at gaining the a birds eye view angle hovering above his target Dante
+Ren vaulted the debris pile, gaining high ground above Dante's position.
 
 Coming out strong, Ren slammed a boot into the ground -- a pulse of force shattered the courtyard stones beneath them. The crater widened with every step he took. Dante barely dodges rolls away grasping his weapon. Ren Begins to charge a red hot concentration of energy from his mouth.
 
@@ -6042,7 +6008,7 @@ Dante’s hand twitched toward the broken blade beside him. Then he paused -- l
 
 He whispered something only he could hear.
 
-“I didn’t want to use this on you, kid.”
+Dante whispered, more to himself than to Ren, “I didn’t want to use this on you, kid.”
 
 He slammed his palm against the rune.
 
@@ -6096,9 +6062,9 @@ Kira approached slowly, sword still raised.
 
 Ren didn’t move. He was still unconscious with Dante’s spear still in his chest.
 
-Dante was gone. The air rain hot and quite.
+Dante was gone. The air rained hot and quiet.
 
-Kira yell “We need help, Anyone please”
+Kira yelled, “We need help! Anyone, please!”
 
 ---
 
@@ -6462,121 +6428,7 @@ Ren left thinking that was the corniest line to depart on and looks back scratch
 
 In the corner of his eyes he could she Liora grinning while drying her eyes.
 
-Ren thought to himself “ I may need to step up”
-
-Part 2 Volume 2 Scene 1: A Shadow’s Price (Revised)
-
-{{SCENE_19}}
-
-**INT. SHADOW GUILD HEADQUARTERS – MAIN HALL – DAYLIGHT BLEEDING THROUGH SMOKE**
-
-The halls were quieter than they had any right to be.
-
-Where there were once shouts, drills, footfalls -- now, only the soft scrape of boots against rubble. Only 30% of the Guild remained, and most were too numb to meet each other’s eyes.
-
-Banners still hung, tattered. Smoke curled from collapsed ceilings. Ren stepped carefully through what used to be the war table. Now shattered. Half the map of Valoriant was scorched beyond recognition.
-
-He hadn’t seen Kira in hours.
-
-The others said she was trying to organize a supply convoy. No one was really listening.
-
-She hadn’t spoken to him since the bodies were cleared.
-
-Ren didn’t blame her.
-
----
-
-{{SCENE_20}}
-
-**INT. GUILD LIBRARY – LATE AFTERNOON**
-
-Ren sat alone at a table covered in dust and torn scrollwork. Before him lay Solana’s pendant, now open -- the back side revealed a hidden crest. Not just a noble symbol.
-
-Four interlocking sigils. One of them -- unmistakably from the Beast Kingdom.
-
-He’d flipped through six volumes on ancient diplomacy, one translated bestiary, and a book called Echoes of the Beastblood Pact.
-
-Nothing yet.
-
-He reached for a seventh.
-
-Why would Solana leave me this?
-
-Why didn’t I see it coming?
-
-What good is power if you can’t save the one person who believed in you?
-
-A soft light flickered across the far side of the room.
-
-Liora.
-
-She stood barefoot in the reflection of a broken stained-glass panel, hands hovering over a small floating rune circle. A training dummy nearby had a minor crack in its chest -- some kind of weaken spell.
-
-Liora’s brow furrowed. Her spell flickered.
-
-She sighed.
-
-“I can’t get the timing right,” she muttered.
-
-Ren didn’t respond.
-
-She turned, spotting him.
-
-“I didn’t know you were in here.”
-
-He gave a nod.
-
-She stepped closer, hesitated.
-
-Then:
-
-“I’ve been practicing support magic. Buffs. Some healing. Figured we’d need more of that.”
-
-Ren watched her -- silent.
-
-She swallowed, folding her arms.
-
-“I keep thinking… if I was just a little stronger… if I could’ve protected her, even for a second…”
-
-Her voice wavered.
-
-“You fought Dante. You stood against him. I couldn’t even move.”
-
-That hit Ren harder than a punch.
-
-He looked down at the pendant.
-
-“I didn’t save her either.”
-
-Liora blinked.
-
-“She trusted me. I let her die.”
-
-The words felt like glass in his throat.
-
-They stood there -- two pieces of a broken whole, caught in the weight of what wasn’t said.
-
-No rallying cry. No grand speech.
-
-Just shared silence.
-
-And one pendant that might still lead somewhere.
-
----
-
-Ren says softly, “I need some time to think. Great work those spells will come in handy”
-
-“Liora don’t let anyone break your spirit”
-
-Ren left thinking that was the corniest line to depart on and looks back scratching his head wondering.
-
-In the corner of his eyes he could she Liora grinning while drying her eyes.
-
-Ren thought to himself “ I may need to step up”
-
-Let’s move forward.
-
-Here’s your LOSK prose drop for:`,
+Ren thought to himself “ I may need to step up”`,
         scenes: [
             { number: 1, title: "Guild Courtyard - Pre-Battle", location: "", timeOfDay: "", markerId: "scene-1" },
             { number: 2, title: "Secondary Balcony", location: "", timeOfDay: "", markerId: "scene-2" },
@@ -6595,12 +6447,10 @@ Here’s your LOSK prose drop for:`,
             { number: 15, title: "Overlook", location: "", timeOfDay: "", markerId: "scene-15" },
             { number: 16, title: "Scout Camp Ridge", location: "", timeOfDay: "", markerId: "scene-16" },
             { number: 17, title: "Guild HQ Main Hall", location: "", timeOfDay: "", markerId: "scene-17" },
-            { number: 18, title: "Guild Library", location: "", timeOfDay: "", markerId: "scene-18" },
-            { number: 19, title: "Main Hall Return", location: "", timeOfDay: "", markerId: "scene-19" },
-            { number: 20, title: "Library Final", location: "", timeOfDay: "", markerId: "scene-20" }
+            { number: 18, title: "Guild Library", location: "", timeOfDay: "", markerId: "scene-18" }
         ],
-        wordCount: 5052,
-        estimatedReadTime: 23
+        wordCount: 4519,
+        estimatedReadTime: 21
       },
       {
         id: "v2c7",
@@ -6701,9 +6551,13 @@ The first light crept through the broken stone slats above the courtyard, painti
 
 Kira was already there.
 
-She was striking the training dummy with precise, brutal rhythm. Every hit echoed. Every motion clean. But it wasn’t practice --
+She was striking the training dummy with precise, brutal rhythm. Every hit echoed. Every motion clean. But it wasn’t just practice. She was punishing something.
 
-you were.”
+Ren leaned against the doorway. “You’re already good, Kira.”
+
+She turned slightly, eyes rimmed with sleeplessness.
+
+“You were watching.”
 
 She turned slightly, eyes rimmed with sleeplessness.
 
@@ -6766,14 +6620,6 @@ Kira entered, arms crossed, her expression unreadable.
 Ren caught her eye -- just briefly.
 
 And this time, she didn’t look away.
-
----
-
-Perfect -- let’s pull the curtain back on the Queen’s game board and give this world the high-stakes escalation it deserves.
-
-Here’s your full LOSK prose drop for:
-
-(A throne of silence. A gate buried in myth. And Ren’s name whispered like prophecy.)
 
 ---
 
@@ -6871,23 +6717,25 @@ She stared into her own eyes for a long moment.
 
 ---
 
-Locked in, boss.
-
-Here’s your final Volume 2, Chapter 7 prose drop for:
-
-(Reflections under starlight. Confessions behind enemy lines. And a Beast takes flight.)
-
----
-
 {{SCENE_7}}
 
 **INT. TWILIGHT CITADEL – PRIVATE OVERLOOK CHAMBER – NIGHT**
 
 The war room had emptied. The holographic maps dimmed. The Queen’s court returned to its chambers -- each plotting, resting, or sharpening blades.
 
-Monica hears a loud knock on the door. Frighten she gets ready to fight but in comes dante slowly with wine and grapes saying “easy tiger I come in peace”
+A sharp knock broke the silence. Monica’s hand shot to her weapon instantly, body coiling into a fighting stance.
 
-Monica runs up and hugs him realizing this maybe the last time they could have a moment together.
+The door opened slowly.
+
+Dante. Wine in one hand, a small cluster of grapes dangling from the other.
+
+“Easy, tiger,” he said, voice low. “I come in peace.”
+
+Monica exhaled, letting her guard fall. She crossed the room and pulled him into a brief, tight hug — the kind that didn’t need explaining.
+
+They both knew.
+
+This might be the last time they had a moment like this.
 
 Monica sat near the edge of the overlook, legs dangling over the stone lip, staring at the violet horizon where the clouds curved like seafoam beneath the stars.
 
@@ -7231,14 +7079,6 @@ Ren didn’t even look back.
 
 ---
 
-Absolutely — this continuation will honor your tone and vision, deepening Liora’s arc into a true breakout moment while shifting Ren’s perspective into the protector/anchor role. Here is:
-
----
-
-(The fight isn’t over. The fire’s just finding its rhythm.)
-
----
-
 {{SCENE_13}}
 
 **EXT. MIST-FIELD RIDGE – CONTINUOUS**
@@ -7447,12 +7287,6 @@ Just walked toward the others as Bradley waved her in.
 
 ---
 
-NEXT SCENE: “Dinner With the Squad”
-
-A quiet celebration. Unspoken victories. And a night where recovery tastes like something earned.
-
-Let me know when you’re ready to continue.
-
 {{SCENE_17}}
 
 **EXT. VALORIANT RIDGE – SUNSET**
@@ -7467,25 +7301,27 @@ He’d given her space.
 
 But now, with the silence too full, she spoke.
 
-It’s crazy I come from a city that doesn’t sleep and you can get food 24/7. Half the time i don’t know what Bradley’s cooking. I’m sure going to miss it.
+"It's crazy," Ren said, eyes on the ridge line. "Back home, you could get food any time of night. Twenty-four hours. I don't know half of what Bradley puts in that pot, but—" He paused. "I think I'd miss that."
 
-Ren says
+Kira's voice was flat. "Miss it?"
 
-“Miss it” kira replied
+"Going back? I don't know if I've even thought about it. Whether it matters to me anymore." He rubbed the back of his neck. "The night I died, I was actually on a pretty solid date. Good BBQ place. Good music."
 
-“I guess I haven’t really thought about going home. Is that still important to me, haha I’m kinda confused where my morals lie. I will say the night I died I was on a fantastic date eating bbq with a beautiful demon if my own”
+"Skip the details," Kira said, eyes still on the horizon.
 
-Haha you can skip the details man i didn’t ask for a story. Kira said sharply.
+Ren blinked. "I was just—"
 
-Ren noticing the tension pulls away but then steps forward.
+"The story." She cut him off evenly. "Skip it."
 
-“Well I just wanted to let you know dinners ready. “
+He let that land. Then turned toward the glow of camp between the trees.
 
-Ren says getting ready to leave.
+"Dinner's ready," he said, starting to go.
 
-Before heading back he ask “hey are you still mad at me”
+Before he turned fully, he asked, "Hey. Are you still mad at me?"
 
-She says no I don’t even know what I would be mad at you about. I’m just mad! mad at myself. Mad at the world we live in. I’m sorry, I’ve holding in so much lately.
+Kira was quiet for a beat.
+
+"No," she said. "I don't even know what I'd be mad at you about." Her arms tightened around herself. "I'm just mad. At myself. At everything." Her voice dropped. "I've been holding in too much lately. I'm sorry."
 
 Ren didn’t answer. He watched the sky instead.
 
@@ -7501,7 +7337,7 @@ She hesitated.
 
 Ren finally looked at her.
 
-“You still are. Well at least I think your are”
+“You still are.”
 
 She shook her head, a sharp exhale escaping her lips. Her arms crossed defensively -- more armor than gesture.
 
@@ -7555,12 +7391,6 @@ Then--
 
 BOOM.
 
-(The flaming Monica entrance follows…)
-
----
-
-BOOM.
-
 A shockwave shattered the edge of the trail.
 
 Ren’s instincts flared. He threw his arm around Kira and tackled them both off the side of the path, narrowly avoiding a crater-sized impact that split the terrain with a tremor.
@@ -7605,7 +7435,7 @@ END OF VOLUME 2`,
             { number: 16, title: "Edge of Clearing", location: "", timeOfDay: "", markerId: "scene-16" },
             { number: 17, title: "Valoriant Ridge Sunset", location: "", timeOfDay: "", markerId: "scene-17" }
         ],
-        wordCount: 4713,
+        wordCount: 4637,
         estimatedReadTime: 21
       }
     ]
