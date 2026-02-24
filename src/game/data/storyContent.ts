@@ -4116,7 +4116,7 @@ A floor glyph pulsed red beneath the group.
 
 Dante grabbed both Ren and Bradley by the collar and yanked them backward as alarms began to scream.
 
-“I thought this place was dormant--”
+“I thought this place was dormant--” Ren started.
 
 “They scanned us through thermal bleed!” Bradley snapped.
 
@@ -4170,7 +4170,7 @@ He glanced at Bradley’s revolver. Watched the elemental rounds sizzle inside 
 
 His thoughts sharpened.
 
-I need to learn spellcasting. Long range. Zone control. If I can’t reach them -- I’ll burn them from a distance.
+*I need to learn spellcasting. Long range. Zone control. If I can’t reach them -- I’ll burn them from a distance.*
 
 Dante, battered and bleeding, nodded once. “On my mark.”
 
@@ -4182,7 +4182,7 @@ The hallway cleared for a brief three seconds.
 
 “Move!” Dante ordered.
 
-They sprinted laying out a swift barrage of strikes, clearing the hoard of cyborgs.
+They sprinted through, blades carving a path through the horde of cyborgs.
 
 Ren cut through the flank beside Dante, clearing a path — then stopped cold.
 
@@ -4217,8 +4217,6 @@ Then Bradley.
 He smirked.
 
 “And I don’t like being bored.”
-
-**INT. SIGMA-13 – MAIN CONDUIT SHAFT – MOMENTS LATER**
 
 Ajax stood tall, barely lifting a finger. Behind him, five warbots knelt like silent judges -- plating gold-slick and spell-forged. The air smelled like ionized fear.
 
@@ -4657,7 +4655,7 @@ and the wards along the Shadow Guild’s outer perimeter shivered like they knew
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 4428,
+        wordCount: 4419,
         estimatedReadTime: 20
       },
       {
