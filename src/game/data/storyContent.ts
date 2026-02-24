@@ -2710,25 +2710,55 @@ Spins. Parries. Feints. Combos.
 
 His aura began syncing with the daggers again — the faint violet edge of the obsidian blades trailing just behind his movements.
 
+Then he focused on the new one.
+
+Phantom Step.
+
+He visualized the motion: close the gap, leave the afterimage, strike inside the confusion window. 0.6 seconds. He had to be in position before it closed.
+
+First attempt — he blinked forward, landed off-balance. Too early.
+
+Second — better, but his follow-up was half a beat slow.
+
+Third —
+
+*Blink. Land. Pivot.*
+
+He was inside the training dummy’s guard before it registered the movement. Clean.
+
+His HUD pulsed.
+
+[ABILITY MASTERED: PHANTOM STEP — Efficiency: 87%]
+
+[NEW ABILITY UNLOCKED: SHADOW SYNC — Assassin Chain Ability]
+
+Both daggers lock to a single target for 1.5 seconds after Phantom Step activation. Next strike within the window: critical damage guaranteed.
+
+Warning: Sync window breaks on missed hit.
+
+Ren exhaled. His hands were steady. Warm.
+
+*Two moves. One flows into the other.*
+
 Then—
 
-“Yo!” a voice called.
+“Yo!” a voice called from across the yard.
 
 Ren glanced back mid-swing.
 
-Liora stood on the steps to the mess hall, a soft smile on her lips and a half-eaten fruit skewer in her hand.
+Bradley stood at the top of the mess hall steps, a ration bar tucked in his cheek, arms out.
 
-“You’re gonna miss breakfast, stealth boy.”
+“Breakfast is gone in five. You want food or not?”
 
-Ren paused, sweat sliding down his temple. “Yeah… I’ll be there in five.”
+Ren paused, sweat sliding down his temple. “I’ll be right there.”
 
-Liora nodded. “Famous last words.”
+Bradley pointed two fingers at him. “You said that yesterday.”
 
-She disappeared back inside.
+He disappeared back inside.
 
-Ren stared after her for a beat… then rolled his shoulders.
+Ren stared after him for a beat… then rolled his shoulders.
 
-“Fifteen more minutes,” he muttered.
+“One more minute,” he muttered. And meant it this time.
 
 {{SCENE_6}}
 
@@ -2818,9 +2848,11 @@ Ren countered — blades crossed into an X to absorb the hit — then launched i
 
 Sparks burst between them.
 
-Ren landed a clean counter — his dagger glancing off Dante's shoulder guard.
+Ren landed a clean counter — his dagger glancing off Dante's shoulder guard. He didn't stop there. Momentum carrying him through, he snapped a sharp axe kick downward — heel driving into Dante's gut.
 
-For a moment, he felt it. Momentum shifting. Victory within reach.
+Dante's breath punched out. He stepped back two paces.
+
+For a moment, Ren felt it. Momentum shifting. Victory within reach.
 
 Then Dante smiled.
 
@@ -2948,6 +2980,21 @@ Ren's HUD flashed.
 
 He didn't hesitate.
 
+But first — before the steal — he let the rhythm speak.
+
+He'd earned this one from Earth. From a mat. From a sensei who'd called it the most underestimated technique in the bag.
+
+"Counter Strike."
+
+The move hit Dante before he could adjust. Not fast — *timed*. Ren absorbed the tail end of Dante's recovery and fired back through the gap with a tight hooking strike that caught him mid-pivot.
+
+Dante's block was half a beat behind. The hit connected — shoulder to jaw.
+
+He staggered.
+
+[COUNTER STRIKE — ACTIVATED]
+[DAMAGE DEALT: COUNTER BONUS — 1.4x]
+
 Ren surged forward — not with his daggers, but with precision. He swept Dante's leg, drove him to one knee, and placed a palm flat against his chest.
 
 "Got you," Ren muttered.
@@ -2966,6 +3013,9 @@ Ren's HUD erupted with notifications:
 **[SKILL ACQUIRED: TWIN FANG — Dragoon Class]**
 *Description: Dual-thrust javelin strike with forked energy. High burst damage. Requires dual-wield mastery.*
 
+**[SKILL ACQUIRED: DRAGOON JUMP — Dragoon Class]**
+*Description: Instant vertical repositioning. Vanish at ground level. Materialize at any height. Landing impact: force multiplier based on descent distance.*
+
 **[ACHIEVEMENT UNLOCKED: MULTI-SKILL THEFT]**
 *Bonus: Steal Ability efficiency increased. Skills stolen from the same target now sync faster.*
 
@@ -2982,7 +3032,7 @@ Dante stood slowly, a faint smile on his lips. "You earned them."
 
 Ren exhaled, adrenaline still coursing through him.
 
-*I can dual wield. I can switch weapon classes mid-fight. And I just stole two moves in one steal.*
+*I can dual wield. I can switch weapon classes mid-fight. I can vanish and land from any height. And I just stole three moves in one steal.*
 
 *This changes everything.*
 
@@ -3000,9 +3050,9 @@ As they walked toward the exit, Ren glanced at his HUD one more time.
 
 **[DUAL TEMPO]** and **[TWIN FANG]** sat in his skill list, glowing faintly.
 
-He'd stolen two techniques. Unlocked dual-wielding. And gained an achievement for multi-skill theft.
+He'd stolen three techniques. Unlocked dual-wielding. And gained an achievement for multi-skill theft.
 
-*One fight. Two abilities. Endless possibilities.*
+*One fight. Three abilities. Endless possibilities.*
 
 The arena doors closed behind them, torches flickering low as their battle concluded for the evening.
 
@@ -3084,7 +3134,13 @@ She pulled up a holographic schematic from her wrist bracer — a wireframe of t
 
 She swiped the projection away.
 
-"Dante leads. You and Bradley follow. Extract intel. Minimal exposure."
+"Dante leads. You're going with him."
+
+She paused, glancing at the schematic.
+
+"We're still deciding who else rounds out the team."
+
+*Please be Kira,* he thought.
 
 Ren studied her face. "And if we're discovered?"
 
@@ -3149,6 +3205,14 @@ Solana didn’t react. She didn’t flinch. She just watched.
 Ren looked down at his hands. “So I have to choose?”
 
 “Not tonight,” she said. “But soon.”
+
+She paused at the edge of the light — not gone yet, but almost.
+
+“When the time comes,” she said quietly, “the Shadowbringer path will need more than daggers. Elemental casting runs through conduits — staffs, rune focuses. Your daggers are built for speed and theft. But to push fire or lightning through them?”
+
+She glanced back.
+
+“You’d burn your own hands before the spell reached anyone else. Find yourself a proper conduit. Something that can hold dark magic without breaking.”
 
 She stepped away, fading into the shadows between lanterns — gone without sound or trace.
 
@@ -3245,6 +3309,22 @@ Dante stepped forward.
 Solana hesitated — not out of doubt, but weight.
 
 "Dante. Ren. Bradley. Step forward."
+
+From the back of the room came the sound of crinkling — a ration wrapper. Bradley lowered what appeared to be a bag of dried mango slices.
+
+"…Me?" he said.
+
+Dante turned a fraction of an inch in his direction.
+
+Bradley straightened, stuffed the snack into his vest pocket, and stepped forward.
+
+"Yeah. Obviously. I'm in." He cleared his throat. "Just. Wanted to confirm."
+
+Solana held his gaze one beat longer than necessary.
+
+"You were always the third pick. Because you're the only one who thinks ahead."
+
+Bradley blinked. Then nodded slowly. "…Okay. I'll take that."
 
 Dante nodded once.
 
@@ -3398,8 +3478,8 @@ Outside, dawn crept closer. And with it, the mission.`,
             { number: 10, title: "Deep War Room - Mission Briefing", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Pre-Deployment - Ren & Kira", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 6115,
-        estimatedReadTime: 28
+        wordCount: 6618,
+        estimatedReadTime: 30
       },
       {
         id: "v2c2",
@@ -3805,7 +3885,7 @@ Bradley lowered his voice. "Seriously though, last intel report said the guy who
 
 "His skeleton filed for retirement?" Ren suggested.
 
-"I was thinking more existential crisis, but bone divorce works too."
+"I was thinking more existential crisis," Bradley said. "Same energy though."
 
 {{SCENE_3}}
 
