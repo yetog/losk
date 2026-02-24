@@ -3007,17 +3007,8 @@ Ren's HUD erupted with notifications:
 
 **[STEAL ABILITY: ACTIVATED]**
 
-**[SKILL ACQUIRED: DUAL TEMPO — Hybrid Class Technique]**
-*Description: Allows seamless weapon-class switching mid-combat. User may equip weapons from multiple job trees and flow between them without stat penalty.*
-
-**[SKILL ACQUIRED: TWIN FANG — Dragoon Class]**
-*Description: Dual-thrust javelin strike with forked energy. High burst damage. Requires dual-wield mastery.*
-
 **[SKILL ACQUIRED: DRAGOON JUMP — Dragoon Class]**
 *Description: Instant vertical repositioning. Vanish at ground level. Materialize at any height. Landing impact: force multiplier based on descent distance.*
-
-**[ACHIEVEMENT UNLOCKED: MULTI-SKILL THEFT]**
-*Bonus: Steal Ability efficiency increased. Skills stolen from the same target now sync faster.*
 
 **[NEW TRAIT UNLOCKED: DUAL WIELD — SYNCHRONIZED VARIANT]**
 *You may now equip and flow between two job-class weapons. Style pairing enabled.*
@@ -3026,13 +3017,13 @@ Ren staggered back, breathing hard. His daggers pulsed with new energy — light
 
 He looked down at his hands, then at Dante.
 
-"I just... took both?"
+"I just... stole his jump? And dual wield?"
 
 Dante stood slowly, a faint smile on his lips. "You earned them."
 
 Ren exhaled, adrenaline still coursing through him.
 
-*I can dual wield. I can switch weapon classes mid-fight. I can vanish and land from any height. And I just stole three moves in one steal.*
+*I can dual wield. I can vanish and land from any height. Two things. One steal.*
 
 *This changes everything.*
 
@@ -3048,11 +3039,11 @@ Dante bumped Ren's fist. "Wouldn't have it any other way."
 
 As they walked toward the exit, Ren glanced at his HUD one more time.
 
-**[DUAL TEMPO]** and **[TWIN FANG]** sat in his skill list, glowing faintly.
+**[DRAGOON JUMP]** sat in his skill list beside the **[DUAL WIELD]** trait, both glowing faintly.
 
-He'd stolen three techniques. Unlocked dual-wielding. And gained an achievement for multi-skill theft.
+He'd stolen a technique and unlocked dual-wielding in a single steal.
 
-*One fight. Three abilities. Endless possibilities.*
+*One fight. Two gains. Endless possibilities.*
 
 The arena doors closed behind them, torches flickering low as their battle concluded for the evening.
 
@@ -3478,7 +3469,7 @@ Outside, dawn crept closer. And with it, the mission.`,
             { number: 10, title: "Deep War Room - Mission Briefing", location: "", timeOfDay: "", markerId: "scene-10" },
             { number: 11, title: "Pre-Deployment - Ren & Kira", location: "", timeOfDay: "", markerId: "scene-11" }
         ],
-        wordCount: 6618,
+        wordCount: 6545,
         estimatedReadTime: 30
       },
       {
@@ -3873,9 +3864,9 @@ Ren raised an eyebrow. "Speak for yourself. I'm already peak performance."
 
 "Ren, you put your boots on the wrong feet yesterday." Bradley joked.
 
-"That was a tactical misdirection." Ren Replied
+"That was a tactical misdirection." Ren replied
 
-"Oh yeah for for who?" Bradley asked with a layer of sarcasm.
+"Oh yeah? For who?" Bradley asked.
 
 Ren hesitated looking down, then said, "...The boots."
 
@@ -3925,33 +3916,49 @@ They started climbing. Sigma-13 grew larger with each step -- less like a fortre
 
 "Neither is 'strategery,' but people said that for four years."
 
-Ren glanced sideways. "You sound like someone who grew up somewhere with actual architecture to compare it to."
+Ren glanced sideways at Bradley's pack -- which was conspicuously larger than a recon mission required.
 
-"Small town. Dad was into stargazing," Bradley replied, voice softer now. "Used to say constellations were like God’s rough drafts -- all the good ideas before he settled on the final design."
+"What exactly is in your bag?"
 
-Ren hesitated, then said quietly, "I don’t think I’ve seen your parents around base."
+Bradley adjusted a strap. "Supplies."
 
-Bradley's pace didn't falter. "Yeah, they’re not... available for base visits anymore. House fire when I was sixteen. Turns out candles and old curtains have zero conflict resolution skills."
+"Tactical supplies?"
 
-He added, more lightly, "But hey, silver lining -- learned to find humor in everything. Because if you don’t laugh first, the universe will. And its timing? Trash."
+"...Some."
 
-Ren nodded. "My mom died when I was eleven. Some rare disease that stumped every doctor."
+"Bradley."
 
-Bradley asked, "System placement after?"
+"Look." He exhaled. "I grew up somewhere where emergency preparedness meant three jars of peanut butter and a star chart. I packed what felt right."
 
-"For a while. Then I graduated to freelance survival," Ren said, hand drifting to the device clipped on his belt. "Mom used to hum while doing dishes. I still catch myself moving to rhythms that aren’t there. Never met my dad, but she said I inherited his ‘thoughtful walking style.’ Whatever that means."
+He pulled a dried mango packet from a side pocket and started eating while still climbing.
 
-"Ah," Bradley said with mock reverence, "so you’re genetically predisposed to walking with cinematic flair. That explains the mysterious vibe."
+Something about the way he said "grew up" -- past tense, sealed -- made Ren not push further.
 
-"And you're hardwired to turn everything into a cooking metaphor."
+"Star chart?" Ren said instead.
 
-"Food is the universal language of 'things could be worse,'" Bradley said.
+"Dad was into stargazing. Used to say constellations were God's rough drafts -- all the good ideas before he settled on the final design." Bradley shrugged. "Had a run of years where that made everything feel less bleak."
 
-They glanced up at Dante, who was surveying the ridgeline ahead.
+Had.
 
-Bradley leaned in and whispered, "Twenty bucks says his tragic backstory involves being raised by a committee."
+Ren filed it away without pressing.
 
-Ren smirked. "Or he’s actually three protocols in a trench coat."
+They climbed in silence for a moment. Bradley's rhythm was steady even with the extra weight.
+
+"The way you move," Bradley said eventually. "Like you're counting something that isn't there."
+
+Ren blinked. He hadn't realized it was visible.
+
+"My mom used to hum while doing dishes," he said. "I picked it up somewhere along the way. Kept it after she was gone."
+
+Bradley nodded once. No follow-up. No "what happened." Just acknowledgment and forward motion.
+
+That was the thing about Bradley. He knew when to leave a door open and when to just walk past it.
+
+They glanced up at Dante, already three paces ahead, surveying the ridgeline.
+
+Bradley leaned in. "Twenty bucks says his tragic backstory involves being raised by a committee."
+
+Ren smirked. "Or he's actually three protocols in a trench coat."
 
 They reached the crest. Sigma-13’s perimeter fence stretched below -- electrified mesh and crystalline sensor spires.
 
@@ -3967,7 +3974,7 @@ Bradley murmured, "Or she figured out that loyalty has an expiration date."
 
 Dante finally spoke, voice cold and quiet. "Ten minutes until the patrol resets. Zero margin for philosophical discussion."
 
-Ren drew his blade, testing its weight.
+Ren drew his blades, testing the weight.
 
 "Time to see what passes for innovation these days," he said, almost to himself.
 
@@ -4652,7 +4659,7 @@ Steel and Sound`,
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 4416,
+        wordCount: 4408,
         estimatedReadTime: 20
       },
       {
