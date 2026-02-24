@@ -3898,7 +3898,7 @@ Through the cracked shield glass, Sigma-13 came into view: half-buried in stone,
 
 "Potentially. Five-minute window."
 
-Ren checked the chrono on his wrist. "We have twelve minutes before patrol rotation. We walk."
+Dante checked the chrono on his wrist. "Twelve minutes before patrol rotation. We walk."
 
 Bradley groaned. "Great. Nothing says 'stealth mission' like hiking boots on gravel."
 
@@ -3982,7 +3982,11 @@ Ren drew his blades, testing the weight.
 
 **INT. SIGMA-13 PERIMETER — NORTH RIDGE ACCESS TUNNEL — NIGHT**
 
-Dante crouched beside the fence’s crystal lattice — fingers tracing the sensor lines woven between the mesh.
+The two kilometers took thirty minutes. Steep terrain, minimal sound discipline, one near-miss with a patrol drone that swept thirty meters east and kept moving.
+
+They had forty seconds before the next sweep by the time they reached the fence.
+
+Dante crouched beside the crystal lattice — fingers tracing the sensor lines woven between the mesh.
 
 “External glyph warding’s minimal. No thermal pulses, no kinetic trip spells,” he said. “They’re relying on the terrain to discourage approach.”
 
@@ -4214,10 +4218,6 @@ He smirked.
 
 “And I don’t like being bored.”
 
-## Scene 4: “The Lab That Shouldn’t Exist”
-
-(A base falls. A bond forms. A path breaks open.)
-
 **INT. SIGMA-13 – MAIN CONDUIT SHAFT – MOMENTS LATER**
 
 Ajax stood tall, barely lifting a finger. Behind him, five warbots knelt like silent judges -- plating gold-slick and spell-forged. The air smelled like ionized fear.
@@ -4248,7 +4248,7 @@ The warbots staggered, momentarily blinded.
 
 Ren ducked low, slid under the legs of a stunned automaton, and slashed its knee joint clean. Sparks burst in rhythmic pulses.
 
-Behind him, Bradley fired off two elemental rounds -- one ice, one plasma -- freezing a drone’s core before the second bullet shattered it.
+Behind him, Bradley fired off two elemental rounds -- one ice, one plasma — the ice round seized its motor systems; the plasma burst shattered what locked up.
 
 Dante stood, sword dragging behind him like a dead limb. His eyes met Ajax’s.
 
@@ -4621,7 +4621,7 @@ She paused briefly, then wrote:
 
 Sigma-13 is gone. But the Queen’s hand has only begun to show.
 
-Dante’s broke today very unexpected.
+Dante broke protocol today. Unexpected.
 
 The rookies held up. Ren is learning to lead without knowing it.
 
@@ -4639,9 +4639,7 @@ She closed the journal softly.
 
 Outside, the first storm of the season rolled in --
 
-and the wards along the Shadow Guild’s outer perimeter shivered like they knew.
-
-Steel and Sound`,
+and the wards along the Shadow Guild’s outer perimeter shivered like they knew.`,
         scenes: [
             { number: 1, title: "Departure from the Hangar", location: "", timeOfDay: "", markerId: "scene-1" },
             { number: 2, title: "Transport to Dead Meridian", location: "", timeOfDay: "", markerId: "scene-2" },
@@ -4659,7 +4657,7 @@ Steel and Sound`,
             { number: 14, title: "Strategic Operations Briefing", location: "", timeOfDay: "", markerId: "scene-14" },
             { number: 15, title: "Solana's Private Reflection", location: "", timeOfDay: "", markerId: "scene-15" }
         ],
-        wordCount: 4408,
+        wordCount: 4428,
         estimatedReadTime: 20
       },
       {
